@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.lb-Logo{
+  width: 70px !important;
+  height: 70px !important;
+  /* padding: 5px !important; */
+  border-radius: 50% !important;
+  /* border: 1px solid #ccc !important; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.email-box{
+  -ms-grid-layer: 1px solid  #f0e3d0 !important ;
+  width: 200px !important;
+  height: 40px !important;
+  padding: 0px !important;
+  color: #f0e3d0 !important;
+  font-size: 14px !important;
+  text-align: center !important ;
+  border: 1px solid  #f0e3d0 !important ;
+  margin-top: 5% !important;
+  padding-inline-start: 20px !important;
+  border-radius: 5px 0px 0px 5px !important;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.email-button{
+  background-color: #e6b31e   !important ;
+  width: 100px !important;
+  height: 41px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  letter-spacing: 0.09em;
+  color: white !important ;
+  margin-top: 5% !important ;
+  margin-left: -1% !important ;
+  border-radius: 0px 5px 5px 0px !important;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
