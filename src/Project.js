@@ -1,11 +1,12 @@
-import { Container, Grid, Typography } from "@mui/material";
+import { Container, Divider, Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import "./Project.css";
 function Project(){
     return(
         <div>
-            <Container maxwidth="md">
-            <Grid container spacing={2} >
+            <Divider sx={{ paddingBottom:"15%"}} />
+            <Container maxwidth="sm">
+            <Grid container spacing={4} >
                 <Grid item xs={4}  >
                     <Box sx={{bgcolor:"grey", borderRadius:"200px", width:"300px", height:"300px" , boder:"1px solid grey" }} >
 
