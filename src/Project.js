@@ -38,22 +38,9 @@ function Project() {
           Our Projects
         </Typography>
         <Divider className="div" />
-        <Grid
-          container
-          spacing={2}
-          sx={{ marginTop: "10%", marginLeft: "30px" }}
-        >
+        <Grid container spacing={2} sx={{ marginTop: "10%" }}>
           <Grid item xs={4}>
-            <Box
-              className="box1"
-              sx={{
-                position: "absolute",
-                borderRadius: "250px",
-                width: "300px",
-                height: "300px",
-                border: "2px solid black",
-              }}
-            >
+            <Box className="box1">
               <Typography
                 variant="h6"
                 sx={{ textAlign: "center", paddingTop: "40px", color: "white" }}

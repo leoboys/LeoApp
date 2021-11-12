@@ -8,6 +8,12 @@
 
 .box1 {
   background-image: url(./Images/pexels-photo-461049.jpeg);
+  position: absolute !important;
+  border-radius: 250px !important ;
+  width: 300px !important;
+  height: 300px !important;
+  border: 2px solid black !important;
+  align-content: center !important;
 }
 
 .box2 {
