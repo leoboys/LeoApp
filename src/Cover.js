@@ -9,7 +9,7 @@ function Cover(){
     return (
    <div className="body" >
        <Box >
-   <Typography className="title" variant="h1" >
+   <Typography className="title-cover" variant="h1" >
        LEO BOYS PRODUCTION
    </Typography>
    <Typography variant="h4" className="sub-title" > Work Hard Take Harder</Typography>

@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { Box } from '@mui/system';
 import About from './About';
 import Project from './Project';
+import Footer from './Footer';
 
 function App() {
   const [emailId, setEmailId] = useState("");
@@ -33,12 +34,12 @@ function App() {
         <Toolbar sx={{ bgcolor:"rgb(56, 8, 0)" }} >
           
        <Link underline="none" href="#" sx={{flexGrow: 0 , marginLeft: "10%"}} > <img src={Logo} alt="" className="lb-Logo" /> </Link>
-       <Typography sx={{ flexGrow: 1}}>LEO BOYS</Typography>
+       <Typography sx={{ flexGrow: 1 , fontFamily:"Nunito" ,color:"#dcc043" ,fontWeight: 500 }}>LEO BOYS</Typography>
 
-       <Link underline="none" href="#" sx={{color:"white"  }} > Home </Link>
-       <Link underline="none" href="#" sx={{color:"white" , paddingLeft: "20px" }} > About-Us </Link>
-       <Link underline="none" href="#" sx={{color:"white" , paddingLeft: "20px" }} > Projects </Link>
-       <Link underline="none" href="#" sx={{color:"white" , paddingLeft: "20px" ,   }} > Classes </Link>
+       <Link underline="none" href="#" sx={{color:"white", fontFamily:"Nunito"  }} > Home </Link>
+       <Link underline="none" href="#" sx={{color:"white" , paddingLeft: "20px", fontFamily:"Nunito" }} > About-Us </Link>
+       <Link underline="none" href="#" sx={{color:"white" , paddingLeft: "20px", fontFamily:"Nunito" }} > Projects </Link>
+       <Link underline="none" href="#" sx={{color:"white" , paddingLeft: "20px" , fontFamily:"Nunito"  }} > Classes </Link>
        <Button onClick={handleClick} sx={{color:"white" , paddingLeft: "20px" , marginRight:"10%"   }}  > <MenuIcon /> </Button>
        <Drawer anchor="right" open={openDrawer} onClose={handleClick}   >
        <Box sx={{ color:"white", width: "100%", height: "100%", maxWidth: 460, bgcolor: "rgb(139, 56, 8)"  }}>
@@ -88,6 +89,7 @@ function App() {
       <Cover/>
       <About />
       <Project />
+      <Footer />
      
       
     

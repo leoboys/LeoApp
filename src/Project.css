@@ -1,3 +1,10 @@
+.project{
+  background-color: rgba(243, 226, 97, 0.329) !important;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+
 .div {
   width: 200px !important;
   text-align: center !important;
@@ -6,20 +13,115 @@
   border: 1px solid rgb(56, 8, 0) !important;
 }
 
+
+
+.title{
+  text-align: center !important;
+  color: black !important;
+  padding-top: 10% !important;
+}
+
 .box1 {
-  background-image: url(./Images/pexels-photo-461049.jpeg);
+  background-color: rgba(95, 158, 160, 0.541) !important;
+  /* background-image: url(./Images/pexels-photo-461049.jpeg); */
   position: absolute !important;
   border-radius: 250px !important ;
   width: 300px !important;
   height: 300px !important;
-  border: 2px solid black !important;
+  /* border: 2px solid black !important; */
+  align-content: center !important;
+  transition:  2s !important;
+}
+
+.box1:hover .trust-def{
+  display: block !important;
+  width: 300px !important;
+  
+  /* text-align: center !important; */
+  /* width: 200px !important; */
+  /* padding-top: 30px !important; */
+  /* transition: 2s !important; */
+}
+
+.trust{
+  font-weight: bold !important;
+  text-align: center !important;
+  padding-top: 50px !important;
+}
+
+.trust-def{
+  text-align: center !important;
+  padding-top: 30px !important;
+  display: none !important;
+  transition: 2s !important;
+  color:  rgba(95, 158, 160, 0) !important;
+  /* transition-property: all 4s !important; */
+  /* transition-timing-function: linear !important; */
+ 
+  /* animation: reveal 2s !important; */
+}
+
+.trust-def:hover{
+  text-align: center !important;
+  width: 200px !important;
+ color: rgb(3, 3, 3) !important;
+ 
+
+}
+
+@keyframes reveal {
+  
+}
+
+
+.box2 {
+  background-color: rgba(240, 32, 32, 0.404) !important;
+  /* background-image: url(./Images/dance.webp); */
+  position: absolute !important;
+  border-radius: 250px !important ;
+  width: 300px !important;
+  height: 300px !important;
+  /* border: 2px solid black !important; */
   align-content: center !important;
 }
 
-.box2 {
-  background-image: url(./Images/dance.webp);
+.dance{
+  font-weight: bold !important;
+  text-align: center !important;
+  padding-top: 50px !important;
+}
+
+.dance-def{
+  text-align: center !important;
+  /* width: 200px !important; */
+  padding-top: 30px !important;
+}
+.dance-def1{
+  text-align: center !important;
+  /* width: 200px !important; */
+  
 }
 
 .box3 {
-  background-image: url(./Images/product.png);
+  background-color: rgba(209, 14, 248, 0.521) !important;
+  /* background-image: url(./Images/product.png) ; */
+  
+  position: absolute !important;
+  border-radius: 250px !important ;
+  width: 300px !important;
+  height: 300px !important;
+  /* border: 2px solid black !important; */
+  align-content: center !important;
+}
+
+.pro{
+  font-weight: bold !important;
+  text-align: center !important;
+  padding-top: 50px !important;
+}
+
+.pro-def{
+  text-align: center !important;
+  /* width: 200px !important; */
+  padding-top: 30px !important;
 }

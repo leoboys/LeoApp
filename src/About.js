@@ -20,7 +20,7 @@ function About(){
                     </Grid>
                     
                 </Grid>
-                <Typography sx={{ paddingBottom:"15%"}} />
+                
             </Container>
 
         </div>
